@@ -5,7 +5,6 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import Icon from '@mui/material/Icon';
 import {SportsSoccer, School, PeopleAlt, SportsEsports, MedicationLiquid, Rocket} from '@mui/icons-material/';
 
 
@@ -17,8 +16,8 @@ const Dropdown = () => {
   };
     return (
         <header>
-        <Box sx={{ minWidth: 120 }}>
-        <FormControl fullWidth>
+        <Box sx={{ minWidth: 250 }}>
+        <FormControl fullWidth >
             <InputLabel id="demo-simple-select-label">Options</InputLabel>
             <Select
             labelId="demo-simple-select-label"
